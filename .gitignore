@@ -20,6 +20,10 @@ build/
 # Local configuration file (sdk path, etc)
 local.properties
 
+# Keystore properties (contains sensitive passwords)
+keystore.properties
+*.keystore
+
 # Log Files
 *.log
 
