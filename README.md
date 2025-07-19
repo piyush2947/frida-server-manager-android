@@ -36,8 +36,8 @@ A modern Android application for managing Frida server installations on rooted d
 3. Build and install on your device
 
 ```bash
-git clone https://github.com/piyush2947/frida-server-manager.git
-cd frida-server-manager
+git clone https://github.com/piyush2947/frida-server-manager-android.git
+cd frida-server-manager-android
 ./gradlew assembleDebug
 ./gradlew installDebug
 ```
@@ -74,6 +74,18 @@ The app requires the following permissions:
 - Android Studio Arctic Fox or newer
 - Android SDK 34
 - JDK 17 or newer
+
+### Release Build
+To build a signed release APK:
+1. Create a `keystore.properties` file in the root directory:
+   ```
+   storePassword=your_store_password
+   keyPassword=your_key_password
+   keyAlias=your_key_alias
+   storeFile=path/to/your/keystore.keystore
+   ```
+2. Run: `./gradlew assembleRelease`
+3. Find the signed APK in `app/build/outputs/apk/release/`
 
 ### Dependencies
 - Jetpack Compose - Modern UI toolkit
