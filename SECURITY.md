@@ -13,7 +13,7 @@ If you discover a security vulnerability in Frida Server Manager, please report 
 ### How to Report
 
 1. **Do NOT** create a public issue for security vulnerabilities
-2. Email details to: [your-email@example.com]
+2. Email details to: [piyush2947@gmail.com]
 3. Include:
    - Description of the vulnerability
    - Steps to reproduce
